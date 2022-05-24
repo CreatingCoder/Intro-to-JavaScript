@@ -1,0 +1,10 @@
+//demonstrates constructors in javascript
+class Coffee{
+    constructor(){
+    this.roast = "Dark"
+    this.sweetner = "Sweet n Low";
+ }
+}
+
+const myCoffee = new Coffee();
+console.log(myCoffee.sweetner);
